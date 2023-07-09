@@ -36,3 +36,43 @@ li a {
   text-decoration: none;
   color: #474747;
 }
+/*banner starts here */
+header {
+  background-color: #fff8f3;
+  padding: 0px 30px 0px 150px;
+  background-image: url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-size: 75px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 580px;
+}
+.banner-intro {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 200px;
+  margin-bottom: 0px;
+}
+.banner-name {
+  margin-top: 5px;
+  color: #181818;
+  font-size: 55px;
+  font-weight: 700;
+}
+.banner-desc {
+  margin-top: 5px;
+  color: #757575;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.profile-pic {
+  width: 500px;
+  display: flex;
+}
