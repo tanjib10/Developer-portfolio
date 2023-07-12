@@ -142,3 +142,100 @@ header {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* summary resume styles */
+
+.summary-title {
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.study-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: thistle;
+}
+.education {
+  padding: 10px;
+  margin: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 5px 3px 5px rgb(159, 139, 145);
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 3px 5px 3px 5px rgb(159, 139, 145);
+}
+.edu-title {
+  text-align: center;
+}
+h4 > h5,
+p {
+  color: #757575;
+}
+h5 {
+  color: #474747;
+}
+.btn-cv {
+  border: 0;
+  border-radius: 5px;
+  background: #3592bd;
+  padding: 18px 35px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 30px 550px 30px 580px;
+}
+
+/* footer starts here */
+footer {
+  margin-top: 100px;
+  background-color: #181818;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-1,
+.footer-2 {
+  margin-left: 30px;
+}
+.footer-title {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.footer-1-desc {
+  font-size: 12px;
+  font-weight: 700;
+}
+footer input {
+  width: 300px;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 100px 18px 5px;
+  margin: 10px auto;
+}
+footer img {
+  margin: 10px;
+}
+.submit-btn {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  display: block;
+  border: 0;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  padding: 18px 35px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
