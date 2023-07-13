@@ -239,3 +239,63 @@ footer img {
   font-size: 14px;
   font-weight: 700;
 }
+
+/* responsive styles *
+
+for mobiles  */
+
+@media screen and (max-width: 576px) {
+  header {
+    background-image: none;
+    padding: 10px;
+  }
+  .banner {
+    background-image: none;
+    flex-direction: column;
+  }
+  nav,
+  .container-about {
+    flex-direction: column;
+  }
+  .profile-pic {
+    width: 70%;
+  }
+  .about {
+    padding: 10px;
+    margin: 30px;
+  }
+  .about-info > p {
+    text-align: center;
+  }
+  .what-i-do {
+    padding: 20px;
+  }
+  .skill-container {
+    flex-direction: column;
+  }
+  .summary-title {
+    margin-top: 50px;
+  }
+  .study-container {
+    border: 0;
+    box-shadow: none;
+    flex-direction: column;
+  }
+  .education,
+  .experience {
+    box-shadow: none;
+    padding: 5px;
+    margin: 0px;
+    border: none;
+  }
+  .btn-cv {
+    margin: 10px 0px;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  footer input {
+    width: 60%;
+    margin: 10px 0px;
+  }
+}
